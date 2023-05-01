@@ -6,7 +6,7 @@ santaImage.src = "/santa.png"
 
 
 
-const socket = io(`ws://localhost:5000`)
+const socket = io()
 const TILE_SIZE = 32
 
 const canvasEl = document.getElementById('canvas')
